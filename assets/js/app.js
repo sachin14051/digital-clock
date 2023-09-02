@@ -7,10 +7,10 @@ function clock() {
     let hr = d.getHours();
     let min = d.getMinutes();
     let sec = d.getSeconds();
-    let session = "PM";
+    let session = "AM";
 
     if(hr>12){
-        session = "AM"
+        session = "PM"
     }
 
     if(hr>12){
